@@ -14,7 +14,6 @@ export const Login = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 25px;
 `;
 
 export const LoginInner = styled.div`
@@ -27,6 +26,7 @@ export const LoginInner = styled.div`
   right: 100px;
   background-color: var(--gray100);
   padding: 30px;
+  border-radius: 15px;
 `;
 
 export const Title = styled.h1`

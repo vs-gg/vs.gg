@@ -6,7 +6,8 @@
       "@pages/*": ["src/pages/*"],
       "@public/*": ["public/*"],
       "@images/*": ["src/images/*"],
-      "@api/*": ["src/api/*"]
+      "@api/*": ["src/api/*"],
+      "@styles/*": ["src/styles/*"]
     }
   }
 }

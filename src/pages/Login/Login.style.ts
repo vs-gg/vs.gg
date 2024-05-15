@@ -73,10 +73,15 @@ export const Icons = styled.img`
   height: 20px;
 `;
 
-export const Button = styled.button`
+interface ButtonProps {
+  disabled: boolean;
+}
+
+export const Button = styled.button<ButtonProps>`
   width: 100%;
   height: 50px;
-  background-color: #d13639;
+  /* background-color: #d13639; */
+  background-color: ${(props) => (props.disabled ? "#cccccc" : "#d13639")};
   font-size: 16px;
   border-radius: 10px;
   font-weight: bold;
